@@ -21,9 +21,13 @@ pip install pandas numpy matplotlib seaborn nltk tqdm transformers
 
 # Project Structure
 Data Reading: The script reads the review data from a CSV file. Adjust the file path as per your local setup.
+
 Quick EDA: A quick Exploratory Data Analysis is performed to understand the data distribution.
+
 VADER Sentiment Analysis: NLTK’s VADER (Valence Aware Dictionary and sEntiment Reasoner) SentimentIntensityAnalyzer is used for sentiment analysis. It provides the polarity scores for the given text data.
+
 Roberta Pretrained Model: A model trained on a large corpus of data (Roberta Model) is also used for sentiment analysis, considering both words and their contextual relation.
+
 Result Visualization: The results from both the VADER and Roberta model are visualized using various plots.
 
 # Quick Start
