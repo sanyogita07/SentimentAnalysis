@@ -7,6 +7,9 @@ This project is aimed at performing sentiment analysis in Python using two diffe
 Environment Setup: It is recommended to set up a virtual environment and install the necessary libraries listed in the "Requirements" section.
 Run the Python Script: After setting up the environment, run the provided Python script, which reads the data, performs exploratory data analysis (EDA), and conducts sentiment analysis.
 
+# Data Source:
+https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews 
+
 # Requirements: 
 Python 3.x
 pandas
